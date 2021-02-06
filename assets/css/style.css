@@ -1,3 +1,7 @@
+/* Stylesheet for Horiseon marketing agency
+optimized for accessibility and SEO*/
+
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,7 +12,11 @@ body {
     background-color: #d9dcd6;
 }
 
-/* Header */
+/* header
+* 
+*Sets header color, display type, and font 
+*
+*/
 
 .header {
     padding: 20px;
@@ -25,6 +33,12 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
+
+/* nav
+*
+*sets font, display type, location, text color of nav buttons 
+*
+*/
 
 .header nav {
     padding-top: 15px;
@@ -52,7 +66,11 @@ p {
     font-size: 16px;
 }
 
-/* Hero */
+/* hero
+* 
+*sets background display for hero section below Header
+*
+*/
 
 .hero {
     height: 800px;
@@ -63,8 +81,11 @@ p {
     background-position: center;
 }
 
-
-/* Main */
+/* main
+* 
+*sets locations and display of maiin articles along with corresponding content
+*
+*/
 
 .float-left {
     float: left;
@@ -109,6 +130,12 @@ p {
     color: #ffffff;
 }
 
+/* main images
+*
+*sets size of images in main section
+*
+*/
+
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -120,6 +147,12 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+
+/* main headers
+*
+*sets margins and font of headers in main section
+*
+*/
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
@@ -136,7 +169,10 @@ p {
     font-size: 36px;
 }
 
-/* Aside */
+/* aside
+*  
+*sets location and display of aside and contents 
+*/
 
 .benefits {
     margin-right: 20px;
@@ -148,6 +184,12 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+
+/* aside articles 
+*
+*sets margin and text color of aside articles
+*
+*/
 
 .benefit-lead {
     margin-bottom: 32px;
@@ -164,6 +206,12 @@ p {
     color: #ffffff;
 }
 
+/* aside headers 
+*
+*sets margins and location of aside headers
+*
+*/
+
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -178,6 +226,12 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/* aside icons 
+*
+*sets margins, size, and display of aside icons
+*
+*/
 
 .benefit-lead img {
     display: block;
@@ -197,7 +251,11 @@ p {
     max-width: 150px;
 }
 
-/* Footer */
+/* footer 
+*
+*sets location and display of footer and contents
+*
+*/
 
 .footer {
     padding: 30px;
@@ -205,6 +263,12 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
+/* footer header
+*
+*sets font size of footer header
+*
+*/
 
 .footer h2 {
     font-size: 20px;
