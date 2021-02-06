@@ -2,13 +2,19 @@
 
 ## Horiseon code refactor.
 
-```
 The marketing agency Horiseon needed their code base refactored so that it followed accessibility standards.
-```
 
 ## Issues found.
 
-```
 After researching accessibility satandards, multiple issues were located within the structure of the html, as well as, the substance held within. 
-```
-Through a thorough restructuring of the code, the proper semantic elements are now in place where numerous '<divs>' once resided. The proper alternative text for all images was provided for both accessibility and search engine optimization.
+
+Through a thorough restructuring of the code, the proper semantic elements are now in place where numerous `<div>`'s once resided. It was also necessarry to insert proper alternative text for all images for both accessibility and search engine optimization. 
+
+In addition to the requested improvements, a broken link to the SEO article was restored.
+
+## Lessons Learned
+
+This project revealed the importance of proper html and css structure. Not only for those who may need to access the code in the future, but also the programs and services that run daily to assist those with disabilities and for promotional uses. In not utilizing proper elements, structure, and comments, the coder is doing a diservice to their peers, end-users, and clients.
+
+## Link
+
